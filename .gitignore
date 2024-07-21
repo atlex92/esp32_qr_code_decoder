@@ -1,0 +1,5 @@
+build
+managed_components
+examples/camera_qr_code_decoder/dependencies.lock
+examples/camera_qr_code_decoder/sdkconfig
+examples/camera_qr_code_decoder/sdkconfig.old

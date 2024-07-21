@@ -1,0 +1,12 @@
+menu "Camera qr code example config"
+
+    choice QR_CODE_READER_IMPLEMENTATION
+        bool "Qr code implementation"
+        default QR_CODE_READER_IMPLEMENTATION_QUIRC
+
+        config QR_CODE_READER_IMPLEMENTATION_QUIRC
+            bool "quirc"
+        config QR_CODE_READER_IMPLEMENTATION_ESPRESSIF
+            bool "espressif"
+    endchoice
+endmenu
